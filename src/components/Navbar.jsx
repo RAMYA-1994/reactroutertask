@@ -18,8 +18,8 @@ const Navbar = () => {
           <li><a href="/">All</a></li>
           <li><a href="/Fullstackdevelopment">Fullstackdevelopment</a></li>
           <li><a href="/datascience">Datascience</a></li>
-          <li><a href="/cyper">Cyber</a></li>
-          <li><a href="/career">Career</a></li>
+          <li><a href="/secure">Cyber</a></li>
+          <li><a href="/us">Career</a></li>
         </ul>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>
