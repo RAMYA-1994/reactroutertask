@@ -6,7 +6,7 @@ import Datascience from"./pages/Datascience"
 import Cyber from "./pages/Cyber"
 import Career from "./pages/Career"
 import Navbar from "./components/Navbar"
-import {ALL,Career,Cyber,Datascience,Fullstackdevelopment} from"./pages"
+// import {ALL,Career,Cyber,Datascience,Fullstackdevelopment} from"./pages"
 function App() {
 
   return (
@@ -18,8 +18,8 @@ function App() {
    <Route path="/" element={<All/>}></Route>
    <Route path="/Fullstackdevelopment" element={<Fullstackdevelopment/>}></Route>
    <Route path="/datascience" element={<Datascience/>}></Route>
-   <Route path="/cyper " element={<Cyber/>}></Route>
-   <Route path="/career " element={<Career/>}></Route>
+   <Route path="/secure" element={<Cyber/>}></Route>
+    <Route path="/us" element={<Career/>}></Route>
    </Routes>
    </BrowserRouter>
    </>
