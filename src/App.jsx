@@ -6,7 +6,7 @@ import Datascience from"./pages/Datascience"
 import Cyber from "./pages/Cyber"
 import Career from "./pages/Career"
 import Navbar from "./components/Navbar"
-// import {ALL,Career,Cyber,Datascience,Fullstackdevelopment} from"./pages"
+import {ALL,Career,Cyber,Datascience,Fullstackdevelopment} from"./pages"
 function App() {
 
   return (
