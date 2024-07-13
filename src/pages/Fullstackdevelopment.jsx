@@ -1,15 +1,15 @@
-import React from 'react'
-import img1 from"../assets/fullstackimg.jpg"
+import React from 'react';
+import img1 from '../assets/fullstackimg.jpg';
 
-const Fullstackdevelopment = () => {
+const FullstackDevelopment = () => {
   return (
     <div>
-        <h1>
-            FULLSTACKDEVELOPMENT
-        </h1>
-        <img  src={img1}/>
+      <h1 style={{ textAlign: 'center', margin: '20px 0' }}>
+        Full Stack Development
+      </h1>
+      <img src={img1} alt="Full Stack Development" style={{ width: '100%', height: 'auto' }} />
     </div>
-  )
-}
+  );
+};
 
-export default Fullstackdevelopment
+export default FullstackDevelopment;
