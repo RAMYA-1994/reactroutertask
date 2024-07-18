@@ -19,9 +19,11 @@ function App() {
    <Route path="/Fullstackdevelopment" element={<Fullstackdevelopment/>}></Route>
    <Route path="/datascience" element={<Datascience/>}></Route>
    <Route path="/secure" element={<Cyber/>}></Route>
+   
     <Route path="/us" element={<Career/>}></Route>
    </Routes>
    </BrowserRouter>
+
    </>
    
   )
